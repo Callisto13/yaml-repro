@@ -12,7 +12,7 @@ import (
 
 func main() {
 	var yamlFile string
-	flag.StringVar(&yamlFile, "f", "", "absolute path to file")
+	flag.StringVar(&yamlFile, "f", "", "path to file")
 	flag.Parse()
 
 	data, err := ioutil.ReadFile(yamlFile)
