@@ -1,0 +1,8 @@
+---
+arrayOfThings:
+  - &shared
+    name: thing-one
+    attributeOne: foo
+    attributeTwo: bar
+  - <<: *shared
+    name: thing-two
