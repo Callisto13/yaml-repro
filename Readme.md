@@ -5,7 +5,7 @@ error converting YAML to JSON: yaml: unmarshal errors:
 exit status 1
 ```
 
-change the yaml import
+change the `yaml` import in `main.go`
 ```sh
 go run main.go -f foo.yaml
 main.YamlToGo{ArrayOfThings:[]main.Thing{main.Thing{Name:"thing-one", AttributeOne:"foo", AttributeTwo:"bar"}, main.Thing{Name:"thing-
